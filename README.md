@@ -17,12 +17,13 @@ Process.alive? receiving_process_pid
 # true
 ```
 
+Now, You can send the first message to the process that is waiting for the message.
 ```elixir
 send(receiving_process_pid, {:message, "Hello World"})
 # Hello World
 ```
-Now, You sent the first message to the process that is waiting for it.
 
+Process, already received the message and died.
 ```elixir
 Process.alive? receiving_process_pid
 # false
@@ -38,7 +39,6 @@ AmazingOtpApp.Cache.put :my_amazing_cache, %{cached_data: "very important value"
 
 AmazingOtpApp.Cache.get :my_amazing_cache
 # %{cached_data: "very important value"}
-
 
 # Wait 10 seconds
 AmazingOtpApp.Cache.get :my_amazing_cache
