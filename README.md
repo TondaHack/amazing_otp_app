@@ -1,7 +1,12 @@
 # AmazingOtpApp
 
+## Install Elixir
+- https://elixir-lang.org/install.html
+- clone this repo `git clone git@github.com:TondaHack/amazing_otp_app.git`
+- open comand line in the repo folder
+
 ## Send & receive message 
-Open iex by `iex -S mix` and copy/paste next lines
+Open iex by `iex -S mix` in command line and copy/paste next lines
 
 ```elixir
 receiving_process_pid = spawn fn ->
