@@ -1,5 +1,10 @@
 # AmazingOtpApp
 
+This repository consists reference code for the talk: Concurrency v Elixiru aneb proč OTP zachránilo telekomunikace ([YouTube link](https://www.youtube.com/live/xUqmubawp54?feature=share&t=4261))
+
+
+presented for: [Tech Meetup Ostrava](https://www.meetup.com/techmeetupostrava/events/290746768/) in the Czech language
+
 ## Install Elixir
 - https://elixir-lang.org/install.html
 - clone this repo `git clone git@github.com:TondaHack/amazing_otp_app.git`
